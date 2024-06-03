@@ -1,0 +1,677 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Terms of Services</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="283fd6ac-3569-4f63-8983-4c4d440e0bc1" class="page sans"><header><h1 class="page-title">Terms of Services</h1><p class="page-description"></p></header><div class="page-body"><p id="ba827666-311d-4b0d-8c93-25a2299b5159" class="">Last Updated: January 30th, 2024</p><p id="fdaeab9f-8431-426e-8377-8958af1a572b" class="">CatRead(also called the &quot;App&quot;, &quot;Service(s)&quot;), provided by XGenLab (&quot;XGen&quot;, &quot;Company&quot;, &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), is a mobile application designed to deliver an outstanding digital web novel reading, recreacting experience for our users. By using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our Services.</p><p id="1e9953e1-b665-4557-8360-8844796cf0cc" class="">Please refer to our <a href="https://www.notion.so/Privacy-Policy-824e99fb695d4541810e49d7df9b7e30?pvs=21">Privacy Policy</a> for information on how we collect, use, and disclose user information. Your use of our Services is subject to our Privacy Policy.</p><p id="c29c98ff-9089-4fcc-ac15-4d440d7072c5" class="">We reserve the right to modify these Terms at any time, at our sole discretion. If we make any changes, we will notify you by posting the modified Terms on our app or through other means. It is important that you review these Terms whenever they are updated. If you continue to use the Services after we have posted the modified Terms, you are indicating your agreement to be bound by them. If you do not agree to the modified Terms, you should discontinue using the Services.</p><p id="422845a1-5439-4f9c-98ee-845bb3459124" class="">We may make changes or discontinue any part of the Services at any time and without notice at our sole discretion, as our Services evolve over time.</p><h2 id="698fb5e5-52cb-448d-b130-aee5fe28ec9e" class=""><span style="border-bottom:0.05em solid"><strong>Eligibility</strong></span></h2><p id="8dbf6619-30f2-43e1-b167-3c422f81aa0f" class="">You may use the Services only if you meet the following criteria:</p><ul id="1e28f2a8-ad9c-4d43-931d-d28dbbd2cd76" class="bulleted-list"><li style="list-style-type:disc">You are at least 16 years old in the European Economic Area, the United Kingdom, and California.</li></ul><ul id="96cf104e-b972-452b-8963-80bfaa7aeedf" class="bulleted-list"><li style="list-style-type:disc">You are at least 13 years old in other states in the United States, except California.</li></ul><ul id="e13e9471-90ed-4ce9-b94b-6f1773f80b47" class="bulleted-list"><li style="list-style-type:disc">You are not barred from using the Services under applicable law.</li></ul><p id="6ad469f6-877f-4ac1-81ec-66822e5142d4" class="">If you are aware of anyone below the required age using the Services, please contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> so that we can take the necessary steps to delete their Personal Information and/or delete their account.</p><h2 id="f572af89-7c12-4ab8-b4d7-9c9f1359f7a1" class=""><span style="border-bottom:0.05em solid"><strong>Registration and Accounts</strong></span></h2><p id="33c70c8e-b8ab-4cca-8b65-63d8ab58a84e" class="">To use certain features of the Platform, you are required to register for a CatRead account (an “Account”). You can do this through the app, or by using certain third-party social networking services, such as Facebook (each, a &quot;SNS Account&quot;), or your Apple ID. If you choose the SNS Account option, we will create your Account by extracting certain personal information, such as your name and email address, from your SNS Account, subject to your privacy settings on the SNS Account.</p><p id="04f2452d-2129-46e9-a8ac-9f6c897d4fe1" class="">You agree to provide accurate, complete, and up-to-date information for your Account and to update it as needed to keep it accurate. You must not disclose your Account password to anyone and must notify us immediately if you suspect unauthorized use of your Account. You are responsible for all activities that occur under your Account.</p><p id="6e07d579-35b2-48f7-ba57-de587e21f701" class="">Your Account is unique and personal to you, and you are responsible for maintaining the security of, and restricting access to, your account and password, and you agree to accept responsibility for all purchases and other activities that occur under your Account.</p><p id="3e7fc9f6-4a37-4c96-947a-6babff084ae7" class="">You have the ability to delete your Account, and you should understand that upon deletion of your Account, you will lose the right to access or use all or part of the Platform.</p><p id="98bb0a98-cf56-4950-87f3-4b3fd03e0296" class="">We reserve the right to disable, suspend, or terminate your Account, at any time, for any reason in our discretion, especially when you fail to comply with any provision of these Terms.</p><h2 id="99633b92-ce22-41b3-a056-5bc2ab86a2c2" class=""><span style="border-bottom:0.05em solid"><strong>Services</strong></span></h2><p id="b92399d3-97d6-42f8-afa1-0f60bc07d097" class="">Through the Services, users can access web novels in the App, users can read, comment, review, rate, search the novels in the App.</p><p id="41b65ef2-6e55-4da7-adbc-8e3dcf137108" class="">Not all activities described in the Services or Products are suitable for everyone. Do not use the Services while engaged in activities that require your full attention and concentration, such as driving or operating heavy machinery. You are solely responsible for your use of the Services.</p><h2 id="c95ffb7d-ab54-4702-8271-a0cf4edda924" class=""><span style="border-bottom:0.05em solid"><strong>Content Policy</strong></span></h2><p id="b82c7732-596b-4bdf-8309-8de65d880407" class="">Regarding content provided by CatRead or published by our contracted writers on the Service, we implements our content policy (“Content Policy”) that in accordance with the relevant laws and regulations, and policies and requirements provided by distributors&#x27; operators.</p><h2 id="1d902341-5ec1-49f7-b88d-c37452bf4649" class=""><span style="border-bottom:0.05em solid"><strong>User Content</strong></span></h2><p id="a6508170-fe1f-4181-a0b0-baa0114055d2" class="">We welcomes your creation and interaction in the App. Certain features of the Service may permit users to upload content to the Service, including but not limited to original literary works (such as fictions, short stories, etc.), suggestions, messages, comments, reviews, photos, video, images, folders, data, text, and other types of works (“User Content”) and to post or publish User Content on the Service. You shall have fully understand and agree to this section prior to uploading, posting or publishing any User Content to the Service.</p><p id="ab93319e-20ce-4324-bad3-c2573169ffef" class="">For the avoidance of doubt, all rights not expressly granted to us herein shall be reserved to you and we are not claiming any ownership in and to User Content that you uploaded.</p><p id="645665ba-9a87-481a-a58c-88d7fcb25790" class="">There are limited rights of User Content granted / licensed to us. By uploading, posting and publishing User Content, you grant us a worldwide and non-exclusive right and license (with the right to sublicense to our affiliates solely in connection with their provision of the Services) to host, store, transfer, display, perform, reproduce, transmit, broadcast, modify (which is made solely for the purpose of formatting for display), and distribute your User Content, in whole or in part, in any media formats only through our Services. We are licensed to use the User Content for any purpose, in all media, in perpetuity, without owing any obligation or liability to you whatsoever. If you wish to keep a User Content private or proprietary, please do not transmit any User Content to us or share any User Content with others.</p><p id="b7be398a-3b99-4950-a131-37f37c55f940" class="">There are limited rights of User Content granted / licensed to other users. By uploading, posting and publishing User Content and / or sharing User Content with other users of the Service, you grant other users a non-exclusive license to access and use that User Content as permitted by these Terms and the functionality of the Service.</p><p id="391611ef-d108-443c-b08e-be5a7d474858" class="">There are following Representations and Warranties of User Content. You shall take sole responsibility for any User Content that you upload, post or publish on the Service, and you are responsible for the consequences of uploading, posting or publishing such User Content. By uploading, posting or publishing User Content, you affirm, represent, and warrant that:</p><ul id="96b3f6ea-52c1-468b-970d-b9bd8e8b7d2d" class="bulleted-list"><li style="list-style-type:disc">You are the creator or owner of the User Content, or have the necessary licenses, rights, consents, and permissions to authorize us and users of the Service to use and distribute your User Content as necessary to exercise the licenses granted by you in this section, in the manner contemplated by us, the Service, and these Terms.</li></ul><ul id="b24ba646-a9aa-4ea2-aeff-fe3403ff8fd3" class="bulleted-list"><li style="list-style-type:disc">Your User Content, in whole or part, does not involve or embody: (i) lobbyists, political action committees, political campaigns; (ii) sexually explicit description, cover and graphic, etc. (including any pornography); (iii) hate speech (e.g. discrimination based on race, sex, religion, nationality, disability, sexual orientation, or age); (iv) infringement of legitimate rights and interests of minors; (ⅴ) offensive content (e.g. reviews that harass, bully or attack others, potentially slanderous or libelous content, etc.); (ⅵ) advertisement; (ⅶ) content that infringes, violates, or misappropriates any third-party right, including but not limited to any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right; and (ⅷ) content that violates any applicable federal, state, or local law, regulation, statute, code or any applicable content guidelines for any distribution platform.</li></ul><ul id="95ad2a9b-fe41-48b5-9592-9ef5a1b29627" class="bulleted-list"><li style="list-style-type:disc">The use of your User Content as contemplated by these Terms, shall not: (i) infringe, violate, or misappropriate any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right; (ii) slander, defame, libel, or invade the right of privacy, publicity or other property rights of any other person; or (iii) any other of our policies or guidelines to which your User Content is subject; (iv) cause our App to violate any law or regulation.</li></ul><p id="2781339b-8884-428e-b9ef-83a77ad24774" class="">You are aware that the uploaded, posted and published User Content is automatically stored and present in our Service. Unless otherwise provided by law, we are under no obligation to monitor, filter, edit or control User Content that you or other users upload, post or publish, and will not be in any way responsible or liable for User Content. We may, however, at any time and without prior notice, screen, remove, delete, take down, edit, or block any User Content that in our sole determination violates these Terms or is otherwise objectionable. You understand that when using the Service you will be exposed to User Content from a variety of sources and acknowledge that User Content may be inaccurate, offensive, indecent, or objectionable. We do not endorse any User Content or any opinion, recommendation, or advice expressed in any User Content. You agree to waive, and do waive, any legal or equitable right or remedy you have or may have against us with respect to User Content. We expressly disclaim any and all liability in connection with User Content.</p><p id="b17bbe79-47ac-4dc8-b4cd-9cccd11489e3" class="">When you feel that User Content uploaded, posted or published by other users contains content prohibited in this section, or your legitimate rights and interests are violated, you may file an complaint or report against such content to us through catread.xgenlab@gmail.com. If notified by a user or content owner that User Content allegedly does not conform to these Terms, we may investigate the allegation and determine in our sole discretion whether to take measures provided in this section against the User Content, which we reserve the right to do at any time and without sending notice to the provider of the User Content.</p><h2 id="9758cf2b-7598-4c9a-aa10-9c89b9a3528f" class=""><span style="border-bottom:0.05em solid"><strong>Disclaimers</strong></span></h2><p id="1e7133cb-609b-4634-8fd3-6b479c03414a" class="">The App(and its Services) is made available “as is”, “as available”, and “with all faults” for the stated purposes herein. Use of the App is entirely at your own risk and you should use your best judgment and exercise caution while using the App.</p><p id="b2800392-f63b-4703-a0c5-68cde9907473" class="">We make no guarantee that your use of the App, and all other features or functionalities associated with the App, or delivery or display of the App, will be available, uninterrupted, interference free, or error free, or be free from any viruses, worms, or other security intrusions. You understand and agree that you use the App, and use, access, download, or otherwise obtain materials or content through the App and any associated sites or App, at your own discretion and risk, and that you are solely responsible for any damage to your property (including your computer system or mobile device used in connection with the App), or the loss of data that results from the use if the App or the download or use of that material or content.</p><p id="f117c094-3682-4bf2-b58f-daae3f3eedd9" class="">We do not guarantee the availability, delivery, performance, pricing, or punctuality of any Works or other Intellectual Property appearing in the App. Without limitation, this includes making no guarantee that any future Episodes of a Work are posted by a writer or publisher in a timely manner, that Works will remain available in the App, or the pricing of Works or Services.</p><p id="b085433f-7b1f-4c65-ae4d-77969a528f3f" class="">We assume no responsibility for the deletion or failure to store any Comments or other information submitted by you in the App, and we expressly do not promise to store or keep any Comments that you have submitted in the App. You are solely responsible for saving backup copies of any Comments that you upload in the App.</p><p id="7f7daa26-38a1-4421-9719-ceb4084c4606" class="">You understand and agree that we are not liable for any failure of performance due to any cause beyond its control, including, without limitation, acts of God, fire, explosion, vandalism, terrorism, weather disturbances, national emergencies, riots, wars, labor difficulties, supplier failures, shortages, breaches, action or request by any government, suspension of existing service in compliance with state or federal law, rule, or regulations.</p><h2 id="78904787-2ff4-41a1-a023-6ce83c3c4f86" class=""><span style="border-bottom:0.05em solid"><strong>Purchases</strong></span></h2><p id="26439ed4-e43b-4b54-a73b-abb6aa0a2b53" class="">The App may offer enhanced features of the Services that you can purchase as monthly, yearly, or other periodic subscription plans (&quot;Subscription&quot;), as may be offered in the future. A description of the features associated with Subscriptions is available within the Services. When you make a purchase (each, a &quot;Transaction&quot;), we may request additional information relevant to your Transaction, such as payment information.</p><p id="81ad522c-e02f-4ef0-8c3b-8020cbc715c8" class="">By initiating a Transaction via the Services, you authorize us to provide your Payment Information to third-party service providers to complete your Transaction. You agree to pay the applicable fees and any taxes, and you authorize us to charge your chosen payment method for verification, pre-authorization, and payment purposes.</p><p id="17a0895e-fba7-4964-a222-4b1b928813f5" class="">We will send you a confirmation email after confirming the payment for your order. Please note that all payments made are <strong>non-refundable</strong> and <strong>non-transferable</strong>, except as expressly provided in these Terms.</p><p id="aaa607b4-9388-4712-b1a8-00daec6adbc9" class="">All amounts are payable and charged: (i) for one-off purchase (e.g. lifetime Subscription we may offer in the future), at the time you place your order; and (ii) <strong>For weekly, monthly, quarterly or yearly subscriptions, at the beginning of the subscription and, because each such subscription renews automatically for an additional period equal in length to the expiring subscription term until you cancel it, at the time of each renewal until you cancel</strong>, using the Payment Information you have provided. You must cancel your monthly or yearly Subscription before it renews to avoid the billing of the fees for the next Subscription period. If you purchase your Subscription outside the App, <strong>you can cancel the renewal of your subscription at any time</strong> by contacting us by email at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>. If you purchase your Subscription via an App Provider, <strong>you can cancel the renewal of your subscription at any time</strong> with the App Provider. You will not receive a refund for the fees you already paid for your current subscription period and you will continue to receive the Services ordered until the end of your current Subscription period.</p><h2 id="90eaca9c-526e-4c82-8701-1611ea7e41c6" class=""><span style="border-bottom:0.05em solid"><strong>Pricing Terms</strong></span></h2><p id="6a85f3cc-7d18-47d0-958b-b6362e8eff1d" class="">We reserve the right to change its pricing terms for Subscriptions at any time and will notify you in advance of such changes taking effect. These changes will not apply retroactively and will only affect Subscription renewals after we have communicated the changes to you.</p><p id="8e4b656e-77c8-427f-bee6-b0523446f46b" class="">You agree that your purchases are not contingent on the delivery of any future functionality or features, or dependent on any oral or written public comments made by us regarding future functionality or features.</p><h2 id="00dd6a08-d87a-46ff-9139-ead2867d2690" class=""><span style="border-bottom:0.05em solid"><strong>Feedback</strong></span></h2><p id="ddb7ad87-bdc8-4c6d-a5c0-a2fdfd514a2e" class="">We welcome feedback, comments, and suggestions for improving the Services and Products (&quot;Feedback&quot;). You can submit Feedback in specific funtios within the App or email us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>. By providing Feedback, you grant us a non-exclusive, worldwide, perpetual, irrevocable, fully-paid, royalty-free, sublicenseable, and transferable license to use, copy, modify, create derivative works, and exploit the Feedback for any purpose.</p><h2 id="19f5155b-ead6-45ee-a5b5-3a3c9f024e69" class=""><span style="border-bottom:0.05em solid"><strong>Rights and Terms for Apps</strong></span></h2><p id="c8ad9517-33df-413b-9cc6-21a57e6a809c" class="">Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, and non-sublicenseable license to download and install the App on a mobile device that you own or control, and to run the App solely for your personal non-commercial purposes. We reserve all rights in and to the App, except as expressly granted to you under these Terms. You may not copy the App except for making a reasonable number of copies for backup or archival purposes. You may not modify the App, distribute it to third parties, reverse engineer, decompile, disassemble the App, or make it available to multiple users through any means.</p><p id="410c71dd-76a5-4ce3-9bd7-823c3c511454" class="">If you obtain the App from the Apple Store, you agree to use the App only on Apple-branded devices running iOS and as permitted by the Apple Store Terms of Service.</p><h2 id="e142300a-d54f-4f19-a493-9b677f1e3e21" class=""><span style="border-bottom:0.05em solid"><strong>Prohibitions</strong></span></h2><p id="cd49ad45-04d0-424d-a5cf-6aa5034ba8b6" class="">You agree not to engage in the following activities:</p><ul id="c10b8964-5144-4c77-aa06-62ce5b11f456" class="bulleted-list"><li style="list-style-type:disc">Posting, uploading, publishing, submitting, or transmitting any Content that infringes on intellectual property rights, violates any law or regulation, is fraudulent, deceptive, defamatory, obscene, or promotes illegal activities, hatred, violence, or discrimination.</li></ul><ul id="531fe04f-b2e3-44d1-bf47-743dfe6ae339" class="bulleted-list"><li style="list-style-type:disc">Using, displaying, mirroring, or framing the Services or any part thereof, XGenLab&#x27;s name, trademarks, logos, or other proprietary information, without our express written consent.</li></ul><ul id="c8cf4555-408d-4210-980b-829c0c17c1c0" class="bulleted-list"><li style="list-style-type:disc">Tampering with or using non-public areas of the Services, XGenLab computer systems, or technical delivery systems of our providers.</li></ul><ul id="80854d80-bc58-4877-89a3-93215161ca2b" class="bulleted-list"><li style="list-style-type:disc">Attempting to probe, scan, test, or breach the security or authentication measures of any XGenLab system or network.</li></ul><ul id="82972771-9a60-4372-b0d5-e59aee520c34" class="bulleted-list"><li style="list-style-type:disc">Bypassing, removing, deactivating, or circumventing any technological measures implemented by XGenLab or any third party to protect the Services.</li></ul><ul id="7a2ead6b-985a-497a-9825-9d0c247ff768" class="bulleted-list"><li style="list-style-type:disc">Sending unsolicited or unauthorized advertising, spam, or other solicitations.</li></ul><ul id="b201fadf-d1c0-42d5-859f-4a9592d441fe" class="bulleted-list"><li style="list-style-type:disc">Using any XGenLab trademark, logo, URL, or product name without our express written consent.</li></ul><ul id="4bc2566f-320b-431b-8f0e-ee820cf4cbb8" class="bulleted-list"><li style="list-style-type:disc">Using the Services for commercial purposes or in any manner not permitted by these Terms.</li></ul><ul id="419ee6d9-cc19-44cb-91f3-1537c0d5d554" class="bulleted-list"><li style="list-style-type:disc">Forging any TCP/IP packet header or using the Services to send altered or false information.</li></ul><ul id="ae92a475-1c2a-49de-a301-3ecfdb9fd5e8" class="bulleted-list"><li style="list-style-type:disc">Attempting to decipher, decompile, disassemble, or reverse-engineer the software used to provide the Services.</li></ul><ul id="b7aa0b82-1657-49b8-8246-7e3af0e4297c" class="bulleted-list"><li style="list-style-type:disc">Interfering with the access of any user, host, or network, including sending viruses, overloading, flooding, or spamming the Services.</li></ul><ul id="93cb66d6-ccd1-4ad5-84a0-21a60d863c76" class="bulleted-list"><li style="list-style-type:disc">Collecting personally identifiable information from other users without their express permission.</li></ul><ul id="d8137601-fb75-4cbd-aa3a-7d78a701afba" class="bulleted-list"><li style="list-style-type:disc">Impersonating or misrepresenting your affiliation with any person or entity.</li></ul><ul id="23434b30-70d1-4c25-9783-eebff3920717" class="bulleted-list"><li style="list-style-type:disc">Violating any applicable law or regulation.</li></ul><ul id="157e01cf-5e3b-420f-86c3-e5ba2bde1eb5" class="bulleted-list"><li style="list-style-type:disc">Encouraging or enabling any other individual to engage in any of the above activities.</li></ul><p id="b41a546e-480f-4e47-bfbf-2ee5f0735e4f" class="">We have the right to monitor and review access to and use of the Services and Content for the purpose of operating the Services, ensuring compliance with these Terms, and adhering to applicable laws or legal requirements. We may remove or disable access to any Content at any time and without notice, at our sole discretion. We also have the right to investigate violations of these Terms and conduct that affects the Services. We may cooperate with law enforcement authorities to prosecute users who violate the law.</p><h2 id="3eb0477f-1a41-415a-85d8-a8cdd53476cc" class=""><span style="border-bottom:0.05em solid"><strong>Links to </strong></span><span style="border-bottom:0.05em solid"><strong>Third Party</strong></span><span style="border-bottom:0.05em solid"><strong> Websites or Resources</strong></span></h2><p id="0b0a6270-5c2b-4024-a6f1-c8006ae7177f" class="">The Services and App may contain links to third-party websites or resources for your convenience. We are not responsible for the content, products, or services on or available from those websites or resources, or links displayed on such websites. You assume sole responsibility and risk for your use of any third-party websites or resources.</p><h2 id="7582a339-4537-47ad-8b61-2d891c3235d9" class=""><span style="border-bottom:0.05em solid"><strong>Termination</strong></span></h2><p id="aa3bebec-29e7-4182-9e93-985c6512867d" class="">We may terminate your access to and use of the Services at our sole discretion and at any time without notice. You may cancel your Account at any time by sending an email to us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>. If you purchased a Subscription via an App Provider, you should also cancel your Subscription directly with the App Provider.</p><p id="bcd99c95-6f2d-40c8-842c-219a60552bc8" class="">Upon termination, discontinuation, or cancellation of Services or your Account, any provisions in these Terms that should reasonably survive will continue to do so, including ownership provisions, warranty disclaimers, limitations of liability, and dispute resolution provisions.</p><h2 id="bc013385-b2d4-4043-9799-71756409cf3d" class=""><span style="border-bottom:0.05em solid"><strong>Limitation of Liability</strong></span></h2><p id="c07c41de-b0a7-410b-aa73-8391d4974d91" class="">Neither XGenLab nor any other party involved in creating, producing, or delivering the Services, Products, or Content will be liable for any incidental, special, exemplary, or consequential damages. This includes, but is not limited to, lost profits, data or goodwill, service interruption, computer damage, system failure, or the cost of substitute Services or Products arising from or in connection with these Terms or the use of or inability to use the Services, Products, or Content.</p><p id="69e22108-b436-4446-bc54-13805fe6df28" class="">In no event will XGenLab;s total liability arising out of or in connection with these Terms or the use of the Services, Products, or Content exceed the amounts you have paid to XGenLab for their use, or fifty United States dollars (US$500), if you have not had any payment obligations to XGenLab, whichever is applicable.</p><p id="e4437427-3923-4b04-86b0-f57a704101e2" class="">The exclusion and limitations of damages described above are fundamental elements of the basis of the agreement between XGenLab and you.</p><h2 id="70ab9657-92b0-4f57-86d8-a32f1b4a1425" class=""><span style="border-bottom:0.05em solid"><strong>Indemnity</strong></span></h2><p id="917ad17b-3001-494f-aef7-e9cad3bbcd00" class="">You agree to indemnify and hold harmless XGenLab, its officers, directors, employees, and agents, from and against any claims, disputes, demands, liabilities, damages, losses, costs, and expenses, including legal and accounting fees, arising out of or connected to your access to or use of the Services or Content, or your violation of these Terms.</p><h2 id="51bd5a29-7fb9-4198-b682-a237f3b62841" class=""><span style="border-bottom:0.05em solid"><strong>Dispute Resolution</strong></span></h2><p id="7ad439f6-59ab-4062-b72e-2176f64363fa" class="">These Terms and any actions related to them will be governed by the laws of HongKong without regard to its conflict of laws provisions.</p><p id="0de9d8b5-2a70-413c-90c6-4baf9c44765e" class="">You and XGenLab agree that any dispute, claim, or controversy arising from or related to these Terms or the use of the Services, Products, or Content (collectively, &quot;Disputes&quot;) will be settled by binding arbitration. You are waiving your right to a trial by jury or to participate as a plaintiff or class member in any purported class action or representative proceeding, except for small claims tribunal actions or IP Protection Actions.</p><p id="7e60b811-1177-4a8b-ab0f-5ab1161df1fa" class="">You must notify us by email at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> within thirty (30) days of your first agreement to these Terms if you wish to opt out of arbitration. If you do not send an Arbitration Opt-out Notice, you will be deemed to have knowingly and intentionally waived your right to litigate any Dispute, except as provided in clauses (i) and (ii) above. The exclusive jurisdiction and venue for any IP Protection Action, or in case you opt out of arbitration, will be the courts located in Hong Kong.</p><p id="2f23ace9-0b92-49b2-9390-32d50a9a049e" class="">The arbitration will be administered by the Hong Kong International Arbitration Centre (&quot;HKIAC&quot;).</p><h2 id="fd8e844f-3549-46f4-a48b-bd631b7ce589" class=""><span style="border-bottom:0.05em solid"></span><span style="border-bottom:0.05em solid"><strong>General Terms</strong></span></h2><p id="dd27f69f-9250-47fd-b89b-98ebd75abe33" class="">These Terms constitute the entire understanding and agreement between XGenLab and you regarding the Services, Products, and Content. They supersede all prior oral or written agreements between XGenLab and you concerning these matters. If any provision of these Terms is held invalid or unenforceable, it will be enforced to the maximum extent permitted, and the remaining provisions will remain in full force and effect.</p><p id="7d09ee8f-5b93-4627-b933-d4a1993df85f" class="">You may not assign or transfer these Terms without XGenLab&#x27;s prior written consent. We may assign or transfer these Terms without restriction.</p><p id="88f121dc-1a8c-4bf0-bf09-679b1cec0153" class="">Any notices provided by XGenLab under these Terms, including those about modifications to the Terms, will be given either via email or by posting within the Services.</p><p id="66978850-3376-4aa3-bfbc-59ad999f9195" class="">XGenLab&#x27;s failure to enforce any right or provision of these Terms does not waive that right or provision. Waivers are only effective if in writing and signed by a duly authorized representative of XGenLab.</p><p id="24cf6be0-1ad5-46f3-b671-8d8abdc8714d" class="">The captions in these Terms are for convenience and have no effect on their interpretation.</p><h2 id="ca8afac6-4fa0-4fa9-a593-75625096e7fb" class=""><span style="border-bottom:0.05em solid"><strong>Contact Information</strong></span></h2><p id="1ae20ae5-6649-45c2-8732-bb9d654f9161" class="">If you have any questions about the above content, please contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>.</p><h2 id="3140b6c0-9198-4e65-b26d-0ad40bb000d5" class=""><span style="border-bottom:0.05em solid"><strong>Versions in other languages than English</strong></span></h2><p id="2d69aed5-4ee7-4abb-b6f9-38983100bf28" class="">The original version of this Privacy Notice is written in English. To the extent a translated version of this Terms is in conflict with the English version, the English version shall prevail.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
