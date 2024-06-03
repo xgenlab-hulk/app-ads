@@ -1,0 +1,678 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Privacy Policy</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="824e99fb-695d-4541-810e-49d7df9b7e30" class="page sans"><header><h1 class="page-title">Privacy Policy</h1><p class="page-description"></p></header><div class="page-body"><p id="9e4f5c4a-0936-425e-8cbf-0e399781d283" class="">
+</p><p id="d0370893-77b9-4cbf-a66d-de39413aed44" class="">Last Updated: January 30th, 2024</p><p id="b423f9e9-24ac-4b5f-8ed0-80c321c168d2" class="">XGenLab (“XGen”, “we”, “us”, “our”) is committed to safeguarding the Personal Information that we collect and process about you when you use our mobile application CatRead (“App”, “Service”). This Privacy Policy applies to the Services and is intended to help you understand (i) how we collect and process your information, including Personal Information when you use the Services; (ii) how we use and disclose your Personal Information; (iii) how we protect your Personal Information; and (iv) the choices you may have concerning your Personal Information. Your privacy and the security of your Personal Information are very important to us. Please read this Privacy Policy carefully.</p><p id="0a1db336-a7d9-4400-966e-85ad4165f375" class="">By “Personal Information” we mean information relating to an identified or identifiable health information. This is also referred to as “personal data” under some laws.</p><p id="328ffc09-c96c-4a0e-8fb9-559a9ec85913" class="">XGenLab is the controller of your Personal Information, <em>i.e.</em> we decide on the means and purposes of the processing of your Personal Information. You can contact us as set out in the “Contact Us” section at the end of this Privacy Policy.</p><h2 id="cf34e80d-0303-4967-b138-525c1e648146" class=""><span style="border-bottom:0.05em solid"><strong>Information We Process</strong></span></h2><p id="10083b0f-1486-447b-b382-40d78bff05d9" class="">We collect and process information about you in various ways and from various sources when you use the Services. You may provide Personal Information directly to us (or to vendors or other unaffiliated entities who may be acting on our behalf), or we may collect certain information about you automatically through your use of the Services.</p><h2 id="955059d0-52f2-4b32-95aa-557358938cbc" class=""><span style="border-bottom:0.05em solid"><strong>Information You Provide to Us</strong></span></h2><p id="10fcde68-ce85-4d10-b352-f7adfbacb695" class="">Information you fill in or submit when you create an account on CatRead or voluntarily select services available on CatRead will be automatically stored, including:</p><p id="caf777f7-7cd6-4a9b-8af0-1d096de7aa75" class=""><strong>Name</strong>.<strong> </strong>You may provide us with your full name, such as when you become a subscriber to the Services, log into the Services, including through an integrated sign-in partner like Google Sign-In, request customer support, or inquire about the Services.</p><p id="2a92f8a7-defb-4d36-87dd-5695d9eeff02" class=""><strong>User Credentials</strong>. When you register for the App, you may be asked to provide credentials to allow you to access your account. These credentials may include a username and password, or the user ID associated with the mechanism you use to sign in to the Services (such as Facebook Login, Apple Sign-In or Google Sign-In).</p><p id="8c7ea016-5c25-4209-82ad-5273954c50a3" class=""><strong>User Identifiers</strong>. We may assign you one or more unique numbers or other identifiers that we use to identify you in our internal systems and recognize you over time and across different devices.</p><p id="8acf0db7-d82d-45d1-8a0e-126f81ad63a0" class=""><strong>Contact Information</strong>. You may provide us with your email address in connection with signing up for our newsletters, signing in with an integrated sign-on partner (such as Facebook Login, Apple Sign-In or Google Sign-In), purchasing a product or content, or otherwise communicating with us. You may also provide us with your telephone number, such as when you request a “text” message from us, reach out to customer support, send us an inquiry about our products or Services, or place an order.</p><p id="c572f1bb-a5cf-4c07-9c3d-6ae39bbdf499" class=""><strong>Payment Type</strong>. We receive your payment type when you place an order in the App or on the Site.</p><p id="eb22fb5d-bb19-4b66-8993-249302795b42" class=""><strong>Camera and Album Access.</strong> The App requires camera and album access to set the profile avatar.</p><p id="50b96951-70b3-4615-9380-018e2daa3479" class=""><strong>Gender.</strong> Your gender may be required when creating an account or during the usage of the app. We use the info to provide novels as customized recommendations.</p><p id="0d9eb3bb-fa9e-4d97-ad41-f1d24c3fe679" class=""><strong>Date of birth.</strong> Your date of birthday may be required when creating an account or during the usage of the app. We use the info to provide novels as customized recommendations.</p><h2 id="ba7836df-6261-47fc-8c70-4814b7f7f8df" class=""><span style="border-bottom:0.05em solid"><strong>Information We Collect Automatically</strong></span> <strong></strong></h2><p id="81599187-2c9f-426c-b1e5-93b8641101f2" class="">We or the providers on which we rely may also collect information from you automatically when you use the Services.  We may use cookies, software developments or other technologies to collect such information as set forth in the “<em><strong>Cookies, Software Development Kits, and Other Technologies</strong></em>” section below. The information we collect automatically will depend on the Services you access and use and your engagement with them. It may include:</p><p id="702f40cb-e6ef-4950-afaa-8d0fe72531b3" class=""><strong>Technical Information</strong>. We may automatically collect information about your mobile device, computer or web browser, such as:</p><ul id="ad476f70-4650-4397-a96c-bab901ab26e0" class="bulleted-list"><li style="list-style-type:disc">Device Model</li></ul><ul id="3005e21a-6d3a-46af-8647-d70e739d4ccd" class="bulleted-list"><li style="list-style-type:disc">Device Name</li></ul><ul id="ebc069ba-8504-4ff1-be3f-3c6d1d8c4a13" class="bulleted-list"><li style="list-style-type:disc">Operating System</li></ul><ul id="a5a249e0-21a6-4cf0-9d8e-c9bf7d49d893" class="bulleted-list"><li style="list-style-type:disc">Hardware Version</li></ul><ul id="9bb0dcc3-aaed-4de8-a4fc-087eca23eeac" class="bulleted-list"><li style="list-style-type:disc">File and Software Names and Types</li></ul><ul id="f59e580d-bcfd-43fb-8034-3cc0ca914776" class="bulleted-list"><li style="list-style-type:disc">Connection Information including Browser Type, Language, and Time Zone</li></ul><ul id="488f843c-d00b-44b7-8fda-258b3390f2ff" class="bulleted-list"><li style="list-style-type:disc">CPU type</li></ul><ul id="350999fd-bcfd-454f-884d-69f33fe73de6" class="bulleted-list"><li style="list-style-type:disc">Display height</li></ul><ul id="25442d82-43e5-4055-b4db-a35c4fd96483" class="bulleted-list"><li style="list-style-type:disc">Screen size</li></ul><ul id="71e06065-5607-400d-af4d-c3eb7562cad3" class="bulleted-list"><li style="list-style-type:disc">IP Address</li></ul><ul id="95403e82-1cbf-42e7-ab5f-347abe0928b3" class="bulleted-list"><li style="list-style-type:disc">Referring URL</li></ul><ul id="e93dd386-1db1-48bd-9b54-619f682a1683" class="bulleted-list"><li style="list-style-type:disc">Browser or Device Characteristics</li></ul><ul id="ea39e2bf-f988-492e-8899-654b24bd46c0" class="bulleted-list"><li style="list-style-type:disc">Operating System</li></ul><ul id="3a9698a1-bb8a-4232-bb12-49c0d2484bdd" class="bulleted-list"><li style="list-style-type:disc">Language Preferences</li></ul><ul id="d21c9419-074d-4ad3-aafa-3c753603a80e" class="bulleted-list"><li style="list-style-type:disc">Country and General Location Information</li></ul><ul id="7d44d640-f37c-4472-8b71-216f71940bef" class="bulleted-list"><li style="list-style-type:disc">GPS Information</li></ul><p id="e08c10c6-961b-4b97-a4f8-646615561ad6" class=""><strong>Usage Information</strong>. We may automatically collect information regarding your interaction with our Services. For instance, we may collect your engagement with the App, including your reading records and how long you use them, and other features we may provide in the future. Such usage information may include the following:</p><ul id="6b9f3ae7-4e38-4064-a0be-8c22709ef407" class="bulleted-list"><li style="list-style-type:disc"><strong>Details regarding how frequently and when you use the Services</strong>.</li></ul><ul id="43b1173f-bf72-473e-9bed-8bee0b7b2b2f" class="bulleted-list"><li style="list-style-type:disc"><strong>Information regarding your interaction with the Services. </strong>This may include what pages you visit in the App, how long you spend on them, the links you click, features and portions of the App you interact with, and the actions you take within the App.</li></ul><ul id="e0806831-a1be-4c3d-a3f1-884805b41449" class="bulleted-list"><li style="list-style-type:disc"><strong>Information regarding your interaction with our emails and messages</strong>. This may include whether you open the messages or click links within them or forward the messages.</li></ul><ul id="f39afb48-e118-4f63-a7f4-7368b3a37626" class="bulleted-list"><li style="list-style-type:disc"><strong>Information regarding App Performance</strong>. This may include data on crashes and App functionality.</li></ul><h2 id="0c1048a0-d950-491c-8133-95b17e192a20" class=""><span style="border-bottom:0.05em solid"><strong>How We Use Your Information</strong></span></h2><p id="7ff585c1-8a61-436d-9358-15da407eafa8" class="">We may use your information, including Personal Information, for various reasons depending on the information provided and your relationship with us. For instance, we may use your information in the following ways, or as otherwise disclosed to you:</p><p id="303b5e96-4001-4bdb-989e-c2f720ccd41b" class=""><strong>To provide you with the Services</strong>.<strong> </strong>We use your information to provide you with the Services. For instance, we use your information to fulfill our contractual obligations to you, to facilitate your orders and transactions, and to establish, administer and manage your account.</p><p id="4f923e1d-a602-4898-9dcd-fa368dd0c7e1" class="">We also use your Personal Information to provide you with specific features of the Services that you request.</p><p id="08e93586-85ea-465a-9043-57b99eae9517" class="">We recommend to you contents you might be interested in, including language settings, and personalized services and instructions, or to respond to your and other users’ additional demands.</p><p id="cdd19ba5-0e1f-430d-a3c6-52e56a314463" class="">Our lawful basis for processing your Personal Information for these purposes is the performance of our contract with you.</p><p id="9718e292-a39a-4c8f-a80a-aafad213cefb" class=""><strong>To Communicate With You</strong>. We may contact you via email, push notification or other means with critical user or service updates, with transactional messages, to inform you of technical issues or other information which is  important to support the Services.<br/>We may also contact you for purposes of customer engagement and support (including to receive feedback and comments from you about the Services and inquire about any features you would like to see in future versions).<br/></p><p id="a9e1c5af-35c5-4653-9de8-c8f19fae6f71" class="">We will contact you to send you marketing communications, ask for your satisfaction rate, or to offer you upgrades, promotions and additional products (our products or third parties&#x27; products) that you may be interested in.</p><p id="057c5531-a6fa-4587-89ff-eb72326edca1" class="">Our lawful basis for processing your Personal Information for these purposes is the performance of our contract with you and/or our legitimate interests in providing you with such communications. You may opt-out of receiving non-service messages at any time by contacting us via email at catread.xgenlab@gmail.com.</p><p id="b1117c04-3c1e-4eb0-b5e7-4a07453cbf37" class=""><strong>For analytics purposes</strong>. We may use your Personal Information to evaluate your usage, preferences, and trends for statistical and analytical purposes which we may use for marketing purposes, operations and product development. We may also use it to improve the user experience and customize, measure and improve our Services and content.</p><p id="26c5a55d-d2ac-457e-91a1-e33b9d9b8550" class="">Our lawful basis is our legitimate interests in understanding, customizing and improving our Services.</p><p id="4f85f9e4-15c0-4279-a740-cfa7a820956d" class=""><strong>To engage in marketing and advertising</strong>.<strong> </strong>We may use your Personal Information to market to you and for advertising purposes. This may include sending emails, text messages, push notifications, and in-app messages or other communications and marketing or advertising products, services, features, offers, promotions, sweepstakes, news, and events.</p><p id="582864ad-fa5b-4b3c-90a0-29db93770ea2" class="">Provide you with advertisements (“ads”) that are more relevant to you rather than ads targeted at generic users.</p><p id="3fb5eddf-9313-45b4-b4d8-700833b5b711" class="">Measure how well our ads, campaigns and other promotions are working and try to improve them.</p><p id="8a98db08-4bd9-442f-9342-9f2be98318a8" class="">Our lawful basis is our legitimate interest in engaging in such marketing and advertising and to grow our business. You may opt-out of receiving non-service messages at any time by contacting us via email at catread.xgenlab@gmail.com.</p><p id="2bd1b3f6-5783-46c2-86bf-b9ce0faaacaf" class=""><strong>For compliance with law, to enforce our rights and manage our business</strong>. We may use your Personal Information to carry out our obligations, enforce our rights and manage our business, including to enforce the Terms of Service, EULA or any other agreement between you and us.</p><p id="f6edaba5-803b-4107-b787-7c5d77673edd" class="">We may also use your Personal Information to prevent activity we determine to be potentially illegal or contrary to our terms of service, or as permitted or required by law, including for auditing, fraud and security monitoring purposes.</p><p id="8be88a77-ca6d-42a5-823a-5eb5f05549c3" class="">Our lawful basis is the performance of our contract with you and/or compliance with our legal obligations and/or our legitimate interests in managing our business and detecting and preventing illegal or impermissible activity and monitoring security.</p><h2 id="0eecced2-857c-4320-8a50-7ce58f33d1df" class=""><span style="border-bottom:0.05em solid"><strong>To Whom We Disclose Your Information</strong></span></h2><p id="8b5cefe0-2ef8-4a6d-9aca-4316745f3cde" class="">We may disclose your information, including Personal Information, to unaffiliated entities or permit them to access your information. For example:</p><p id="f917bb40-a7dc-43f9-8dfa-f726dd4bfa97" class=""><strong>To provide the Services and operate and promote the Services</strong>. We employ or engage other companies and people to perform tasks on our behalf and we may need to share your Personal Information with them to provide the Services to you, to respond to your technical support questions, to provide customer support, to improve the user experience and/or to otherwise assist us with providing the Services. We may also disclose your Personal Information to providers when we promote our business, including for marketing and advertising purposes, and to conduct audience engagement and analytics related to the Services.</p><p id="21ab62b1-bdfe-46cb-87e9-2e6776eadfe9" class=""><strong>To comply with legal requirements and enable protection of rights</strong>. We may disclose your Personal Information at the request of law enforcement or government agencies, in response to subpoenas, court orders, or other legal processes, or as otherwise required by any law, regulation or legal order that we are subject to.</p><p id="4d6b6441-5f9d-4e4f-b624-20db4a6713ef" class="">We may also disclose your Personal Information to protect the rights, property, or safety of another person, to monitor for or prevent fraud, or to investigate or prevent your violation of any contractual or other relationships with us or your suspected illegal or unlawful activities.</p><p id="bdc8d7f2-479d-4aae-b7da-6a77189e8036" class=""><strong>As otherwise described to you or with your consent</strong>. We may disclose your Personal Information to unaffiliated entities as otherwise described to you or with your consent.</p><p id="f57b20cd-97c7-45f6-86d7-a811c7a24a2c" class=""><strong>In connection with a business transaction</strong>. If we or any of our affiliates, subsidiaries or lines of business is merged, acquired, divested, financed, sold, disposed of or dissolved, including through merger, consolidation, sale or divestiture of assets, any information collected pursuant to this Privacy Policy, including Personal Information we may possess about you, may, in whole or in part, be sold, disposed of, transferred, divested, or otherwise disclosed as part of that transaction or proceeding.</p><h2 id="50066a54-b965-4a95-ab08-c5342ddf0f30" class=""><span style="border-bottom:0.05em solid"><strong>Vendors</strong></span></h2><p id="59fa5701-e5f3-40b0-8adc-68408b1db1e6" class="">Specific entities, among others, with which we may share your information, including Personal Information, the information we share and the purposes for which we share it are set forth below.</p><table id="c0af1575-eee4-41bb-ac8a-253cd6f50874" class="simple-table"><tbody><tr id="bb6a671d-7b9b-4165-ab1e-d8e46c1737de"><td id="=QWo" class="" style="width:96.7109375px"><strong>Vender</strong></td><td id="cXXi" class="" style="width:163.375px"><strong>Data Shared</strong></td><td id="R``K" class="" style="width:235.53125px"><strong>Purpose</strong></td><td id="?DRN" class=""><strong>Vender&#x27;s Privacy Policy</strong></td></tr><tr id="93dbee27-dac0-45ff-b07d-5b6802d18984"><td id="=QWo" class="" style="width:96.7109375px">Apple ( Apple, Inc.)</td><td id="cXXi" class="" style="width:163.375px">Payment and banking informationPersonal identifiersFact of App launch if using Apple ID to login</td><td id="R``K" class="" style="width:235.53125px">- To collect and process payments for subscription to the AppTo permit login to App via Apple ID</td><td id="?DRN" class="">https://www.apple.com/legal/privacy/en-ww/</td></tr><tr id="0aed0c85-d775-46a8-98dd-8bf2ed987ac4"><td id="=QWo" class="" style="width:96.7109375px">Google</td><td id="cXXi" class="" style="width:163.375px">All information you provide to us and that we collect about you</td><td id="R``K" class="" style="width:235.53125px">- To store your information when you use our Services<br/>- To collect and process payments for subscription to the App<br/>- To permit login to App via Apple ID<br/>- To send push notifications to usersTo evaluate, analysis the use of the website, compile reports on activities, and provide other services related to internet usage through Google Analytics<br/></td><td id="?DRN" class="">https://policies.google.com/privacy?hl=en-US</td></tr></tbody></table><p id="94c854f8-f911-4168-9f95-7f0a1c253512" class="">Each of the vendors listed above is permitted to use personal information shared (i) for purposes of providing the relevant services; (ii) to comply with applicable law, regulation, or legal process; and (iii) to detect, prevent, or mitigate fraud or security vulnerabilities. Each of the vendors listed above may be permitted to transfer information to other parties, such as to subcontractors who are engaged to assist in providing the contracted for services. Lollipop reviews the privacy policies and terms of service (or other relevant contractual provisions) for each vendor to assess their privacy and information security practices.</p><h2 id="93830b34-27b2-4900-bdfc-11fa15321c47" class=""><span style="border-bottom:0.05em solid"><strong>Cookies, Software Development Kits, and Other Technologies</strong></span></h2><p id="95b73ebd-25a9-464e-8023-5ed3a3e0c701" class="">Cookies are used to store and receive identifiers and other data on computers, phones and other devices. Other technologies, including data that we store on your web browser or device, identifiers associated with your device and other software, are used for similar purposes. In this policy, we refer to all of these technologies as &quot;cookies&quot;.</p><p id="9ab54bfe-4bab-4e4a-b3eb-b1603f698f9b" class="">We use cookies if you have a CatRead account, use these Services, including our website and apps, or visit other websites and apps that use CatRead. Cookies enable CatRead to offer Services to you and to understand the data that we receive about you, including data about your use of other websites and apps, whether you are registered or logged in or not.</p><p id="439f68be-d8f4-41b6-b282-5084c8cd01d1" class="">We use cookies to:</p><ul id="92f5fece-e020-4c4a-a93b-0e359a0ff515" class="bulleted-list"><li style="list-style-type:disc">Verify log-in data.</li></ul><ul id="d880da7a-9ff7-4757-bbde-a020fa89681a" class="bulleted-list"><li style="list-style-type:disc">Track traffic flow and patterns of travel in connection with the Services.</li></ul><ul id="cd4e3e1a-ea0a-42dc-90ef-659d3301084f" class="bulleted-list"><li style="list-style-type:disc">Understand the total number of visitors to the Services on an ongoing basis and the types of devices.</li></ul><ul id="b4fc0e14-afff-4196-9074-35cf5826c623" class="bulleted-list"><li style="list-style-type:disc">Monitor the performance of the Services and continually improve it.</li></ul><ul id="bc42d76d-0e63-4fe7-80b0-f1cd378d4802" class="bulleted-list"><li style="list-style-type:disc">Customize and enhance your online experience.</li></ul><ul id="5dcdc552-1a8a-423f-ab42-ee1d72ebf504" class="bulleted-list"><li style="list-style-type:disc">Provide customer service.</li></ul><p id="5e439125-bba2-442a-b2d8-276914a78032" class="">You have the right to choose whether to accept cookies or not. However, please note that if you choose to refuse cookies, certain parts of CatRead may not work properly if you have disabled browser cookie use. Please be aware that these controls are distinct from the controls that CatRead offers you.</p><p id="441f6791-05ac-4c8d-9fa9-ae261e6b3d71" class="">Most devices (in the case of mobile applications) and browsers (in the case of web apps and pages) are initially set up to accept cookies and allow you to change your cookie settings. These settings will typically be found in your browser&#x27;s “options” or “preferences” menu. You can reset your browser to refuse all cookies or to indicate when a cookie is being sent.</p><h2 id="7f5cac92-d97b-45f1-8d44-7c6534908939" class=""><span style="border-bottom:0.05em solid"><strong>Retention of Your Personal Information</strong></span></h2><p id="be699027-ad05-4b4a-9937-06467abc1e87" class="">We will retain your personal information for as long as necessary to fulfill the purposes for which it was collected and processed, including for the purposes of satisfying any legal, regulatory, accounting or reporting requirements. To determine the appropriate retention period for your Personal Information, we will consider the amount, nature, and sensitivity of the Personal Information, the potential risk from unauthorized use or disclosure, the purposes for which we process Personal Information and whether we can achieve those purposes through other means, and applicable legal requirements.</p><p id="12cdaeab-4cfe-4d04-bfb3-1599c984d20e" class="">If you choose to delete the App from your device (note that deletion of the App does not mean that your account is deleted – please contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> if you wish to delete your account) or your account becomes inactive, we will retain your Personal Information for a period of one (1) year(s) in case you decide to re-activate the Services or re-install the App. We have determined that this retention period is appropriate taking into account the factors described above and based on our experience with our App users, in order to secure your smooth experience with our App functions.</p><p id="3d7a8581-5b18-4d91-ae7e-3fed8256b99f" class="">You may delete your account and erase your Personal Information at any time in our App or contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>. Please note that if you choose to do this, your Personal Information will not be recoverable should you later create another account.</p><p id="6769ffc4-1867-4eab-9098-d2dd7cb22494" class="">Please note that, in all cases, we may need to retain Personal Information for a longer period where we are subject to legal or regulatory requirements to do so.</p><h2 id="7b7f7747-64f0-43e2-97f3-11314cc9b923" class=""><span style="border-bottom:0.05em solid"><strong>Information Security</strong></span></h2><p id="59970004-3056-4292-8f11-aa3785eaeb3e" class="">We believe that the largest threat to security and privacy is that someone could get your device and account information. You can help keep your Personal Information secure by properly selecting and protecting passwords, not sharing passwords with others, and preventing others from using your mobile device, laptop or other devices that can access the Services.</p><h2 id="295f5661-ff14-4204-a9f0-c5da3248b536" class=""><span style="border-bottom:0.05em solid"><strong>Links</strong></span></h2><p id="f4df32aa-5644-4d2e-a010-3a48dc3dd956" class="">Although the Services may contain links to other websites or services, we are not responsible for the privacy policies and/or practices on those websites or services. The information practices of those websites or services are not covered by this Privacy Policy. You should read the privacy policy stated on that website or service before sharing your Personal Information with any websites or services.  We are not responsible for the privacy policies or other sites and encourage you to read their privacy policies.</p><h2 id="11a7e682-cbb4-41a2-9c8b-19f3c21f6c89" class=""><span style="border-bottom:0.05em solid"><strong>Note About the Permissible Age of Using the Services</strong></span></h2><p id="1e737ef9-48a0-46a7-bf9f-d4bbf8e7e6ff" class="">We are aware of the importance of children&#x27;s safety and data protection on the Internet. As already mentioned above, our offer is also aimed at young people and children. The EU General Data Protection Regulation places special requirements on the consent of children and young people under the age of 16 (Art. 8 GDPR). We require consent in particular in the context of registration in the form of entering the required data and when releasing the collection of location data. We expressly do not use this data to create profiles and play out advertising or similar content.</p><p id="844d4b4a-1428-4ff9-aa7f-6deae4d2e29c" class="">In principle, according to Art. 8 GDPR, consent of children and adolescents under 16 years the consent and approval of parents is required. We would like to ask children and young people under the age of 16 to obtain the consent of their parents and to provide proof of this consent if requested by us. We will point this out separately as part of the registration process and the submission of the consent.</p><p id="f0f48836-e501-4934-baff-efcecc435e39" class="">If you are aware of anyone under 16 using the Services, please contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> and we will take the required steps to delete their Personal Information and (or) delete their account.</p><p id="dc161caa-ea7a-4413-96cc-21280f4f5607" class=""><span style="border-bottom:0.05em solid"><strong>Your Choices: i</strong></span>f you wish to withdraw your consent for us to contact you to send you marketing or commercial communications, you may contact us via email at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>.</p><h2 id="4f20d3b7-0c3f-4677-ab43-6fc088c2a1b9" class=""><span style="border-bottom:0.05em solid"><strong>Your Rights to Your Personal Information</strong></span></h2><p id="6ee99b58-3720-4532-a7a8-805201d376ce" class="">You may have rights in relation to your Personal Information, including the right to delete your Personal Information (subject to certain limitations); access the Personal Information you enter into the Services; and ask us about what kind of Personal Information we have about you. These rights may depend on the country and state of your residence.</p><p id="2303a6c0-c9f7-4289-95eb-910a91e44050" class="">Please contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> for additional information.</p><p id="1716a014-2482-48ac-b4bb-e2eb64cc8fe5" class="">For individuals in the European Economic Area (“EEA”) or United Kingdom (“UK”), please see “<em><strong>General Data Protection Regulation</strong></em><em><strong> (“</strong></em><em><strong>GDPR</strong></em><em><strong>”)</strong></em>” below.</p><p id="6deee730-3883-4cd1-acf7-660310bd46c0" class="">For individuals who are California residents, please see “<em><strong>Your California Privacy Rights</strong></em>” below.</p><p id="75e289dd-a9ac-48d1-a522-21777c9dae21" class=""><strong>General Data Protection Regulation</strong><strong> (“</strong><strong>GDPR</strong><strong>”)</strong></p><p id="a3cf0266-ea60-4fc9-a237-5faf644a447a" class="">If you are in the EEA or UK, you have certain rights regarding the Personal Data we have about you that you can exercise in certain circumstances. The GDPR defines “Personal Data” as any information which is related to an identified or identifiable natural person.  These rights are to:</p><ul id="34972ccc-f5c8-4849-888c-5d512ce563b0" class="bulleted-list"><li style="list-style-type:disc">Access the Personal Data we have about you.</li></ul><ul id="18df3459-f6ca-40c1-adf4-ffbb83ce1378" class="bulleted-list"><li style="list-style-type:disc">Correct the Personal Data we have about you.</li></ul><ul id="31b24889-5732-4d9e-8191-acd5d203f0cc" class="bulleted-list"><li style="list-style-type:disc">Restrict the processing of your Personal Data.</li></ul><ul id="cb8ad31f-caae-4d1c-844d-f7a7faf5f412" class="bulleted-list"><li style="list-style-type:disc">Delete the Personal Data we have about you.</li></ul><ul id="a7622040-aae3-413b-8058-b6de5cb9af42" class="bulleted-list"><li style="list-style-type:disc">Object to the processing of your Personal Data.</li></ul><ul id="5efd5cd8-b459-4973-b9c9-d99898a69362" class="bulleted-list"><li style="list-style-type:disc">Not be subject to automated decision-making.</li></ul><ul id="be512b6f-dc50-4e23-aad8-2a62bd9e7cd2" class="bulleted-list"><li style="list-style-type:disc">Take your Personal Data somewhere else.</li></ul><p id="9794d745-3407-4f32-8cb9-fc08ee26bf22" class="">Where you have provided your consent to the processing of your Personal Data for a specific purpose, you have the right to withdraw your consent for that specific processing at any time. However, please note that if you withdraw your consent, we may no longer be able to provide you with our Services. You may contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> to make any of these requests. We may require you to provide proof of your identity before we are able to fully review your request. Please note that, where we determine that we can grant your request, we will do so as soon as possible, but it may take us more time in some cases, for example for full erasure of your Personal Data stored in our backup systems. There may be situations where we are not required to comply with your request and we will let you know if one of those situations arises.</p><p id="092ee233-d8c0-44fa-b3fc-44d359812682" class="">Our lawful basis for processing your Personal Data is typically going to be your consent, but we also may process your Personal Data because of a legal obligation, performance of a contract with you, or because we have a legitimate interest in doing so.</p><p id="6b0e1bfb-28b9-40b8-8f41-0e9a76ba014f" class="">We may use intelligent algorithms that provide certain App functions, such as the recommended novels that may be suitable to your reading interests. The more Personal Data that our intelligence algorithm can work with, the more accurate recommendations you get from the algorithm.</p><p id="e80f7304-cdff-4645-8c4a-7428ae997d82" class="">We hope that you don’t ever have an issue with the way that we handle your Personal Data, but if you do, contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> to let us know so that we can make it right. If you’re ever not happy with the way that we handle your request, you can file a complaint with your local supervisory authority.</p><h2 id="1c35a36a-d1f8-4052-9298-8f15acd235b5" class=""><span style="border-bottom:0.05em solid"><strong>Your California Privacy Rights</strong></span></h2><p id="b8032baa-0125-47fd-8df9-1bba40abdc8a" class="">If you are a resident of California, you may have certain rights under the California Consumer Privacy Act (“CCPA”).</p><p id="0feed053-3681-4496-b433-ecb64c290a9d" class=""><strong>Right to Know</strong>. You may have the right to know how we have collected, used and disclosed your Personal Information. Specifically, you may have the right to know:</p><ul id="729b6cdf-7206-4e3b-ad98-12ec4a78a56e" class="bulleted-list"><li style="list-style-type:disc">The categories of Personal Information we have collected about you.</li></ul><ul id="4c1ad117-b8e1-4c0c-bfd6-1a7650b2a4eb" class="bulleted-list"><li style="list-style-type:disc">The categories of sources from which we have collected your Personal Information.</li></ul><ul id="5ff3a538-6b9e-4716-974b-1c9944185038" class="bulleted-list"><li style="list-style-type:disc">The business or commercial purpose for which we collect, sell or share your Personal Information.</li></ul><ul id="3976ffb6-b591-40f0-909f-33a08c565e01" class="bulleted-list"><li style="list-style-type:disc">The categories of third parties to whom we have disclosed your Personal Information.</li></ul><ul id="6bf679b6-74b6-484c-ade8-8e6ab2162231" class="bulleted-list"><li style="list-style-type:disc">The categories of Personal Information that we have sold or shared about you and the categories of third parties to whom it was sold or shared.</li></ul><ul id="d986de49-ff20-479a-87f4-55d827405fcb" class="bulleted-list"><li style="list-style-type:disc">The categories of Personal Information we have disclosed about you for a business purpose and the categories of persons to whom we have disclosed it.</li></ul><p id="b1612a2a-6aa7-4822-b99c-ccc903e177d6" class="">In addition, you may have the right to know the specific pieces of Personal Information we have collected about you. Subject to certain limitations, you may request that we provide this information dating back to Feburary 10th, 2024.</p><p id="370711ec-f84b-4d4c-bdbd-0f2ff0a2f2df" class=""><strong>Right to Make a Deletion Request</strong>. You may have the right to request that we delete your Personal Information that we have collected or received. Subject to certain exceptions, we must delete your Personal Information and direct our vendor to delete your Personal Information.</p><p id="eae9f1eb-cbf9-4389-a3c4-ff0d295cd585" class=""><strong>Right to Correct Inaccurate Personal Information</strong>. You may have the right to request that we correct inaccurate Personal Information about you, taking into account the nature of the Personal Information and the purposes of the processing of the Personal Information.</p><p id="a6ae2db7-4a2f-49c8-b903-3b9c9cbc178d" class=""><strong>Right to Opt-Out of Sales of Personal Information</strong>. You may have the right to opt-out of the sale of your Personal Information.</p><p id="67a6b959-007b-4cf1-b33c-24dee684e0f7" class=""><strong>Right to Opt-Out of Sharing of Personal Information</strong>. You may have the right to opt-out of us sharing your personal information for cross-context behavioral advertising purposes.</p><p id="b5bb4047-b4d2-4d6c-9edf-0231f210583a" class=""><strong>Right to Limit Use and Disclosure of Sensitive Personal Information</strong>. Subject to certain exceptions, you may have the right to limit our use and disclosure of your sensitive personal information.</p><p id="f27c4dae-a885-4e7b-bc43-9e6951fda04a" class=""><strong>Right to Non-Discrimination</strong>. You have the right not to be discriminated against by us for choosing to exercise your rights under the CCPA.</p><p id="55b11e52-5e40-4fea-865c-cc4e8bff1400" class=""><strong>How to Exercise Your California Privacy Rights. </strong>You may email us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> with “<strong>CCPA Privacy Rights</strong>” in the subject line and in the body of your message to exercise these rights.</p><p id="a8c2da72-c221-405c-b0fe-94ba4ae48884" class=""><strong>Shine the Light</strong>.  If you are a California resident who provides Personal Information in obtaining products or services for personal, family or household use, California Civil Code Section 1798.83 (“Shine the Light Law”) permits you to request in writing and obtain from us, once per calendar year, data about the Personal Information we shared, if any, with other third parties for their own direct marketing purposes. To make such a request, please contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span> and write &quot;Shine the Light - Request for California Privacy Information&quot; for the subject of your message. We will send you a reply email within 90 days containing the requested information once we confirm your request. Not all the shared Personal Information is covered by the Shine the Light Law requirements and therefore only Personal Information which is covered will be included in our response.</p><h2 id="323c8e2b-cb6d-45d8-9171-e2ec6418a659" class=""><span style="border-bottom:0.05em solid"><strong>Changes to the Privacy Policy</strong></span></h2><p id="42c967ba-4745-4424-a9bc-e5e11e4d4eaf" class="">We may update this Privacy Policy periodically.  We will post the changes to this policy in our App and update the “Last Updated” date at the top of the Privacy Policy. We encourage you to review our Privacy Policy to stay informed.  If you disagree with the changes to this Privacy Policy, you should discontinue your use of the Services. By accessing and/or using the Services, you agree that we may collect, process, and share your information (including Personal Information) consistent with this Privacy Policy.</p><h2 id="5579f431-e56c-4208-8ae1-d589e60108a7" class=""><span style="border-bottom:0.05em solid"><strong>Contacting Us</strong></span></h2><p id="9a9b192c-a7b4-4640-ba2a-d6c5bda129f3" class="">Any questions in respect of this Privacy Policy or other questions should be sent to the following email address: <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span>.</p><p id="f259f125-207a-45fb-8f15-7fba5ae3340d" class="">If you would like to: access, correct, amend, or delete any Personal Information we have about you, register a complaint, or simply want more information, contact us at <span style="border-bottom:0.05em solid">catread.xgenlab@gmail.com</span></p><h2 id="47d88641-39b3-49f2-8c1d-5a7dabb9ac29" class=""><span style="border-bottom:0.05em solid"><strong>Versions in other languages than English</strong></span></h2><p id="6d3cdad2-397d-48a1-ac96-b07dd3b63ad0" class="">The original version of this Privacy Notice is written in English. To the extent a translated version of the Privacy Notice is in conflict with the English version, the English version shall prevail.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
